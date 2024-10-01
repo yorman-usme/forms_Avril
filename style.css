@@ -47,7 +47,7 @@ button:hover {
 
 
 .heart-background {
-    position: absolute;
+    position: relative;
     top: 20px;
     right: 750px;
     opacity: 0.7;
@@ -57,7 +57,7 @@ button:hover {
 }
 
 .heart-background-2 {
-    position: absolute;
+    position: relative;
     bottom: 600px;
     left: 700px;
     opacity: 0.3;
@@ -68,7 +68,7 @@ button:hover {
 
 /* Nuevos corazones */
 .heart-background-3 {
-    position: absolute;
+    position: relative;
     top: 1000px;
     left: 670px;
     opacity: 0.4;
@@ -78,7 +78,7 @@ button:hover {
 }
 
 .heart-background-4 {
-    position: absolute;
+    position: relative;
     bottom: 0px;
     right: 700px;
     opacity: 0.2;
@@ -88,7 +88,7 @@ button:hover {
 }
 
 .heart-background-5 {
-    position: absolute;
+    position: relative;
     top: 300px;
     left: 950px;
     opacity: 0.56;
@@ -97,7 +97,7 @@ button:hover {
     z-index: -1;
 }
 .heart-background-6 {
-    position: absolute;
+    position: relative;
     top: 500px;
     left: 1000px;
     opacity: 0.4;
@@ -106,7 +106,7 @@ button:hover {
     z-index: -1;
 }
 .heart-background-7 {
-    position: absolute;
+    position: relative;
     top: 650px;
     left: 680px;
     opacity: 0.3;
@@ -115,7 +115,7 @@ button:hover {
     z-index: -1;
 }
 .heart-background-8 {
-    position: absolute;
+    position: relative;
     top: 1100px;
     left: 1050px;
     opacity: 0.56;
@@ -124,7 +124,7 @@ button:hover {
     z-index: -1;
 }
 .heart-background-9 {
-    position: absolute;
+    position: relative;
     top: 40px;
     left: 800px;
     opacity: 0.3;
@@ -133,7 +133,7 @@ button:hover {
     z-index: -1;
 }
 .heart-background-10 {
-    position: absolute;
+    position: relative;
     top: 440px;
     left: 800px;
     opacity: 0.2;
@@ -142,7 +142,7 @@ button:hover {
     z-index: -1;
 }
 .heart-background-11 {
-    position: absolute;
+    position: relative;
     top: 650px;
     left: 890px;
     opacity: 0.1;
@@ -152,7 +152,7 @@ button:hover {
 }
 
 .heart-background-12 {
-    position: absolute;
+    position: relative;
     top: 1000px;
     left: 1000px;
     opacity: 0.56;
@@ -162,7 +162,7 @@ button:hover {
 }
 
 .heart-background-13 {
-    position: absolute;
+    position: relative;
     top: 840px;
     left: 810px;
     opacity: 0.2;
