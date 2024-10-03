@@ -1,177 +1,194 @@
-.fondo1 {
-    max-width: 400px;
-    margin: 30px auto;
-    padding: 15px 35px 15px 35px;
-    border: 3px solid ;
-    border-radius: 10px;
+body {
+    position: relative; /* Permite que los elementos hijos se posicionen relativamente */
+    overflow: hidden; /* Evita el desplazamiento si los corazones se salen de la pantalla */
+    background-color: #f0f8ff; /* Color de fondo claro */
+    font-family: Arial, sans-serif; /* Fuente para todo el documento */
 }
 
-.fondo2 {
-    max-width: 400px;
-    margin: 15px auto;
-    padding: 15px 35px 15px 35px;
-    border: 3px solid;
-    border-radius: 10px;
+/* Estilos del formulario */
+.fondo1, .fondo2 {
+    position: relative; /* Asegura que los elementos internos se posicionen respecto a este contenedor */
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 30px auto; /* Centrar el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: white; /* Fondo blanco para el formulario */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave para el formulario */
+    z-index: 1; /* Asegura que el formulario esté por encima de los corazones */
 }
 
+/* Estilos para los títulos dentro del formulario */
+h2 {
+    text-align: center; /* Centra los títulos */
+    color: #4a4a4a; /* Color del texto */
+}
+
+/* Corazones en la pantalla */
+.heart-background, .heart-background-2, .heart-background-3,
+.heart-background-4, .heart-background-5, .heart-background-6,
+.heart-background-7, .heart-background-8, .heart-background-9,
+.heart-background-10, .heart-background-11, .heart-background-12,
+.heart-background-13 {
+    position: absolute; /* Posiciona los corazones en lugares aleatorios */
+    opacity: 0.4; /* Opacidad inicial de los corazones */
+    z-index: -1; /* Asegura que los corazones estén detrás del formulario */
+}
+
+/* Estilos específicos para cada corazón */
+.heart-background {
+    top: 10%; /* Ajusta la posición vertical */
+    left: 5%; /* Ajusta la posición horizontal */
+    width: 70px; /* Tamaño del corazón */
+    height: 70px; /* Tamaño del corazón */
+    fill: #FFB6C1; /* Rosa pastel */
+}
+
+.heart-background-2 {
+    top: 20%; 
+    left: 30%;
+    width: 50px;
+    height: 50px;
+    fill: #ADD8E6; /* Azul pastel */
+}
+
+.heart-background-3 {
+    top: 50%; 
+    left: 60%;
+    width: 80px;
+    height: 80px;
+    fill: #FFB6C1; /* Rosa pastel */
+}
+
+.heart-background-4 {
+    top: 70%; 
+    left: 15%;
+    width: 60px;
+    height: 60px;
+    fill: #ADD8E6; /* Azul pastel */
+}
+
+.heart-background-5 {
+    top: 30%; 
+    left: 75%;
+    width: 90px;
+    height: 90px;
+    fill: #FFB6C1; /* Rosa pastel */
+}
+
+.heart-background-6 {
+    top: 90%; 
+    left: 20%;
+    width: 40px;
+    height: 40px;
+    fill: #ADD8E6; /* Azul pastel */
+}
+
+.heart-background-7 {
+    top: 10%; 
+    left: 80%;
+    width: 60px;
+    height: 60px;
+    fill: #FFB6C1; /* Rosa pastel */
+}
+
+.heart-background-8 {
+    top: 40%; 
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    fill: #ADD8E6; /* Azul pastel */
+}
+
+.heart-background-9 {
+    top: 85%;
+    left: 80%;
+    width: 100px;
+    height: 100px;
+    fill: #FFB6C1; /* Rosa pastel */
+}
+
+.heart-background-10 {
+    top: 30%;
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    fill: #ADD8E6;
+}
+
+.heart-background-11 {
+    top: 15%;
+    left: 0%;
+    width: 100px;
+    height: 100px;
+    fill: #FFB6C1;
+}
+
+.heart-background-12 {
+    top: 69%;
+    left: 5%;
+    width: 80px;
+    height: 80px;
+    fill: #ADD8E6;
+}
+
+.heart-background-13 {
+    bottom: 25%;
+    right: 15%;
+    width: 90px;
+    height: 90px;
+    fill: #FFB6C1;
+}
+
+
+
+/* Estilos para los elementos del formulario */
 label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
+    display: block; /* Hacer que las etiquetas se muestren en bloque */
+    margin-bottom: 15px; /* Espacio debajo de las etiquetas */
+    font-weight: bold; /* Negrita para las etiquetas */
 }
 
 input[type="text"],
 select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 30px;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-sizing: border-box;
-
+    width: 100%; /* Ancho completo para inputs y selects */
+    padding: 15px; /* Espaciado interno */
+    margin-bottom: 25px; /* Espacio debajo de cada elemento */
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 10px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    width: 100%; /* Ancho completo para el botón */
+    padding: 10px; /* Espaciado interno */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
 }
 
 button:hover {
-    background-color: #4f9b51;
+    background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
 }
 
-.heart-background {
-    position: absolute;
-    top: 5%;
-    left: 30%;
-    opacity: 0.7;
-    font-size: 100px;
-    color: #FADADD;
-    z-index: -1;
-}
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .heart-background, .heart-background-2, .heart-background-3,
+    .heart-background-4, .heart-background-5, .heart-background-6,
+    .heart-background-7, .heart-background-8, .heart-background-9,
+    .heart-background-10, .heart-background-11, .heart-background-12,
+    .heart-background-13 {
+        width: 40px; /* Ajusta el tamaño de los corazones */
+        height: 40px; /* Ajusta el tamaño de los corazones */
+    }
 
-.heart-background-2 {
-    position: absolute;
-    top: 80%;
-    right: 60%;
-    opacity: 0.3;
-    font-size: 120px;
-    color: #FADADD;
-    z-index: -1;
-}
+    .fondo1, .fondo2 {
+        padding: 15px; /* Ajusta el espaciado interno en pantallas pequeñas */
+    }
 
-/* Nuevos corazones */
-.heart-background-3 {
-    position: absolute;
-    bottom: 30%;
-    left: 70%;
-    opacity: 0.4;
-    font-size: 135px;
-    color: #AEC6CF;
-    z-index: -1;
-}
-
-.heart-background-4 {
-    position: absolute;
-    bottom: 5%;
-    right: 20%;
-    opacity: 0.2;
-    font-size: 140px;
-    color: #FFC0CB;
-    z-index: -1;
-}
-
-.heart-background-5 {
-    position: absolute;
-    top: 20%;
-    right: 25%;
-    opacity: 0.56;
-    font-size: 90px;
-    color: #AEC6CF;
-    z-index: -1;
-}
-
-.heart-background-6 {
-    position: absolute;
-    bottom: 40%;
-    left: 15%;
-    opacity: 0.4;
-    font-size: 150px;
-    color: #AEC6CF;
-    z-index: -1;
-}
-
-.heart-background-7 {
-    position: absolute;
-    top: 40%;
-    right: 70%;
-    opacity: 0.3;
-    font-size: 110px;
-    color: #FFC0CB;
-    z-index: -1;
-}
-
-.heart-background-8 {
-    position: absolute;
-    bottom: -10%;
-    left: 30%;
-    opacity: 0.56;
-    font-size: 200px;
-    color: #FFC0CB;
-    z-index: -1;
-}
-
-.heart-background-9 {
-    position: absolute;
-    top: 45%;
-    left: 70%;
-    opacity: 0.3;
-    font-size: 60px;
-    color: #AEC6CF;
-    z-index: -1;
-}
-
-.heart-background-10 {
-    position: absolute;
-    top: 10%;
-    right: 40%;
-    opacity: 0.2;
-    font-size: 60px;
-    color: #FFC0CB;
-    z-index: -1;
-}
-
-.heart-background-11 {
-    position: absolute;
-    bottom: 60%;
-    left: 50%;
-    opacity: 0.1;
-    font-size: 89px;
-    color: #FFC0CB;
-    z-index: -1;
-}
-
-.heart-background-12 {
-    position: absolute;
-    bottom: -17%;
-    right: 25%;
-    opacity: 0.56;
-    font-size: 90px;
-    color: #FFC0CB;
-    z-index: -1;
-}
-
-.heart-background-13 {
-    position: absolute;
-    top: 130%;
-    left: 25%;
-    opacity: 0.2;
-    font-size: 89px;
-    color: #AEC6CF;
-    z-index: -1;
+    button {
+        padding: 8px; /* Ajusta el espaciado interno del botón */
+    }
 }
