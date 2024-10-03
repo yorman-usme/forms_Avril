@@ -1,6 +1,5 @@
 body {
     position: relative; /* Permite que los elementos hijos se posicionen relativamente */
-    overflow: hidden; /* Evita el desplazamiento si los corazones se salen de la pantalla */
     background-color: #f0f8ff; /* Color de fondo claro */
     font-family: Arial, sans-serif; /* Fuente para todo el documento */
 }
