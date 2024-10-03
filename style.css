@@ -188,26 +188,3 @@ button:hover {
     z-index: -1;
     transform: translate(-50%, -50%);
 }
-
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {
-    .heart-background,
-    .heart-background-2,
-    .heart-background-3,
-    .heart-background-4,
-    .heart-background-5,
-    .heart-background-6,
-    .heart-background-7,
-    .heart-background-8,
-    .heart-background-9,
-    .heart-background-10,
-    .heart-background-11,
-    .heart-background-12,
-    .heart-background-13 {
-        font-size: 50px; /* Reduce el tamaño de los corazones en pantallas pequeñas */
-        top: auto; /* Ajusta las posiciones en pantallas más pequeñas */
-        left: auto;
-        right: auto;
-        bottom: auto;
-    }
-}
