@@ -242,7 +242,7 @@ button:hover {
     background-color: #45a049; /* Color de fondo del botón al pasar el ratón */
 }
 /* Ajustes para pantallas pequeñas */
- @media (max-width: 768px) { 
+ /* @media (max-width: 768px) { 
     .heart-background, .heart-background-2, 
     .heart-background-3, .heart-background-4, 
     .heart-background-5, .heart-background-6, 
@@ -251,14 +251,13 @@ button:hover {
     .heart-background-11, .heart-background-12,
      .heart-background-13 { 
         width: 50px; /* Ajusta el tamaño de los corazones */ 
-        height: 50px; /* Ajusta el tamaño de los corazones */ 
-    } 
+        /* height: 50px; /* Ajusta el tamaño de los corazones */ 
+    /* } 
     .fondo1, .fondo2 { 
         padding: 15px; /* Ajusta el espaciado interno en pantallas pequeñas */ 
-        } 
+        /* } 
 
         button { 
             padding: 8px; /* Ajusta el espaciado interno del botón */
-         } 
-}
-
+         /* } 
+} */
