@@ -250,8 +250,8 @@ button:hover {
     .heart-background-9, .heart-background-10, 
     .heart-background-11, .heart-background-12,
      .heart-background-13 { 
-        width: 60px; /* Ajusta el tamaño de los corazones */ 
-        height: 60px; /* Ajusta el tamaño de los corazones */ 
+        width: 50px; /* Ajusta el tamaño de los corazones */ 
+        height: 50px; /* Ajusta el tamaño de los corazones */ 
     } 
     .fondo1, .fondo2 { 
         padding: 15px; /* Ajusta el espaciado interno en pantallas pequeñas */ 
