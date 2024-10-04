@@ -89,7 +89,7 @@ h2 {
 
 .heart-background-7 {
     opacity: 1;
-    top: 10%; 
+    top: 25%; 
     left: 80%;
     width: 60px;
     height: 60px;
@@ -97,8 +97,8 @@ h2 {
 }
 
 .heart-background-8 {
-    top: 40%; 
-    left: 40%;
+    top: 1%; 
+    left: 70%;
     width: 100px;
     height: 100px;
     fill:  #25b8e9; /* Azul pastel */
@@ -106,7 +106,7 @@ h2 {
 
 .heart-background-9 {
     opacity: 0.6;
-    top: 85%;
+    top: 80%;
     left: 80%;
     width: 100px;
     height: 100px;
@@ -115,17 +115,17 @@ h2 {
 
 .heart-background-10 {
     opacity: 0.8;
-    top: 30%;
-    left: 25%;
-    width: 80px;
-    height: 80px;
+    top: 34%;
+    left: 30%;
+    width: 120px;
+    height: 120px;
     fill:  #25b8e9;
 }
 
 .heart-background-11 {
     opacity: 0.6;
-    top: 15%;
-    left: 0%;
+    top: 13%;
+    left: 5%;
     width: 100px;
     height: 100px;
     fill: #ff637a;
@@ -133,8 +133,8 @@ h2 {
 
 .heart-background-12 {
     opacity: 1;
-    top: 69%;
-    left: 5%;
+    top: 66%;
+    left: 15%;
     width: 80px;
     height: 80px;
     fill:  #25b8e9;
@@ -142,7 +142,7 @@ h2 {
 
 .heart-background-13 {
     opacity: 1;
-    bottom: 25%;
+    bottom: 32%;
     right: 15%;
     width: 90px;
     height: 90px;
@@ -151,8 +151,8 @@ h2 {
 
 .estrella-1 {
     opacity: 0.9;
-    bottom: 12%;
-    right: 35%;
+    bottom: 8%;
+    left: 15%;
     width: 80px;
     height: 80px;
     fill: yellow;
@@ -176,8 +176,8 @@ h2 {
 }
 
 .estrella-4 {
-    top: 5%;
-    right: 55%;
+    top: 3%;
+    right: 70%;
     width: 80px;
     height: 80px;
     fill: yellow;
@@ -185,7 +185,7 @@ h2 {
 
 .estrella-5 {
     opacity: 1;
-    top: 18%;
+    top: 16%;
     right: 25%;
     width: 120px;
     height: 120px;
@@ -193,7 +193,7 @@ h2 {
 }
 .estrella-6 {
     opacity: 0.9;
-    top: 50%;
+    top: 52%;
     left: 15%;
     width: 80px;
     height: 80px;
@@ -201,7 +201,7 @@ h2 {
 }
 
 .estrella-7 {
-    top: 48%;
+    top: 44%;
     right: 10%;
     width: 100px;
     height: 100px;
@@ -213,7 +213,7 @@ h2 {
 /* Estilos para los elementos del formulario */
 label {
     display: block; /* Hacer que las etiquetas se muestren en bloque */
-    margin-bottom: 15px; /* Espacio debajo de las etiquetas */
+    margin-bottom: 10px; /* Espacio debajo de las etiquetas */
     font-weight: bold; /* Negrita para las etiquetas */
 }
 
@@ -221,7 +221,7 @@ input[type="text"],
 select {
     width: 100%; /* Ancho completo para inputs y selects */
     padding: 15px; /* Espaciado interno */
-    margin-bottom: 25px; /* Espacio debajo de cada elemento */
+    margin-bottom: 30px; /* Espacio debajo de cada elemento */
     border: 1px solid #ccc; /* Borde suave */
     border-radius: 10px; /* Bordes redondeados */
     box-sizing: border-box; /* Incluye el padding en el ancho total */
